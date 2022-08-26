@@ -7,7 +7,7 @@ Based on the status of the user it will allow the user to access seccrete messag
 
 The following routes are supported  
 
-` POST - /api/sign-in `
-` POST - /api/sign-up `
-` POST - /api/reset-my-password `
-` GET - /api/secrete-message `
+` POST - /api/sign-in `  
+` POST - /api/sign-up `  
+` POST - /api/reset-my-password `  
+` GET - /api/secrete-message `  
