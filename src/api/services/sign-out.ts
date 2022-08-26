@@ -1,7 +1,13 @@
-import bcrypt from "bcryptjs"
-import { generateToken, verifyToken } from "../utils/jwt";
+import { verifyToken } from "../utils/jwt";
 import signedInUsers from "../model/signed-in-users.model";
 
+/**
+ * 
+ * @param req 
+ * @param res 
+ * @description Signs out the logged in user
+ * @returns {Promise<void>}
+ */
 export default async function SignOut(req: any, res: any) {
   try {
 

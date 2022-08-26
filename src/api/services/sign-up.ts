@@ -1,9 +1,13 @@
 import bcrypt from "bcryptjs"
-import { generateToken } from "../utils/jwt";
-import signedInUsers from "../model/signed-in-users.model";
 import User from "../model/user.model";
-import { IUser } from "../model/user.model";
 
+/**
+ * 
+ * @param req 
+ * @param res 
+ * @description Signs up the user if the user does not exist
+ * @returns {Promise<void>}
+ */
 export default async function SignUp(req: any, res: any) {
   try {
     

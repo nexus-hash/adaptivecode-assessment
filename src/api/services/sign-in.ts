@@ -3,6 +3,13 @@ import { generateToken } from "../utils/jwt";
 import signedInUsers from "../model/signed-in-users.model";
 import User from "../model/user.model";
 
+/**
+ * 
+ * @param req 
+ * @param res 
+ * @description This function is used to sign-in the user
+ * @returns {Promise<void>}
+ */
 export default async function SignIn(req: any, res: any) {
   try {
     if(!req.body.email || !req.body.password) {
