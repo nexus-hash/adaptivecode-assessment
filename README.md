@@ -10,4 +10,10 @@ The following routes are supported
 ` POST - /api/sign-in `  
 ` POST - /api/sign-up `  
 ` POST - /api/reset-my-password `  
-` GET - /api/secrete-message `  
+` GET - /api/secrete-message `   
+
+### To Run the Assessment
+
+` npm install `  
+` npm run build `  
+` npm run start `  
